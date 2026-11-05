@@ -1,0 +1,9 @@
+{
+  "rot90": "0/90/180/270 ngẫu nhiên",
+  "flip_lr_prob": 0.5,
+  "brightness_range": [
+    0.95,
+    1.05
+  ],
+  "seed": 42
+}

@@ -1,0 +1,7 @@
+﻿preprocessing,macro_f1_trung_binh,delta_trung_binh,so_mo_hinh_co_ket_qua,ket_luan
+original,0.2774,0.0,5,đối chứng
+contrast,0.2631,-0.0143,5,làm giảm
+clahe,0.2865,0.0092,5,không đáng kể
+denoise,0.273,-0.0044,5,không đáng kể
+sharpen,0.277,-0.0003,5,không đáng kể
+combo,0.286,0.0087,5,không đáng kể

@@ -1,0 +1,5 @@
+﻿model,setting,n_train,macro_f1_mean,macro_f1_std
+RandomForest,khong_augment,5699,0.2638,0.0016
+RandomForest,co_augment,11398,0.2678,0.0042
+LogisticRegression,khong_augment,5699,0.2761,0.0
+LogisticRegression,co_augment,11398,0.3008,0.0

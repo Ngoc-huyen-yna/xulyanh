@@ -1,0 +1,33 @@
+{
+  "variants": [
+    "original",
+    "contrast",
+    "clahe",
+    "denoise",
+    "sharpen",
+    "combo"
+  ],
+  "params": {
+    "contrast": {
+      "lo": 2,
+      "hi": 98
+    },
+    "clahe": {
+      "clip": 2.0,
+      "grid": 8
+    },
+    "denoise": {
+      "k": 3
+    },
+    "sharpen": {
+      "sigma": 1.0,
+      "amount": 1.0
+    }
+  },
+  "img_size": 128,
+  "rgb_idx": [
+    2,
+    1,
+    0
+  ]
+}
