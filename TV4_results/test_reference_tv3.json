@@ -1,0 +1,45 @@
+{
+  "model": "TV3-logistic(sharpen/hist_glcm_edge)",
+  "preprocessing": "sharpen",
+  "feature_set": "hist_glcm_edge",
+  "val_accuracy": 0.2771,
+  "val_precision_macro": 0.2769,
+  "val_recall_macro": 0.279,
+  "val_macro_f1": 0.27,
+  "val_weighted_f1": 0.279,
+  "val_roc_auc_ovr": 0.602,
+  "test": {
+    "accuracy": 0.4122,
+    "precision_macro": 0.3384,
+    "recall_macro": 0.3631,
+    "macro_f1": 0.3448,
+    "weighted_f1": 0.3935,
+    "roc_auc_ovr": 0.6347
+  },
+  "confusion_matrix": [
+    [
+      229,
+      162,
+      76,
+      40
+    ],
+    [
+      129,
+      158,
+      83,
+      18
+    ],
+    [
+      59,
+      120,
+      257,
+      10
+    ],
+    [
+      29,
+      78,
+      120,
+      4
+    ]
+  ]
+}

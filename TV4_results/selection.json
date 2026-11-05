@@ -1,0 +1,44 @@
+{
+  "model": "XGBoost",
+  "preprocessing": "clahe",
+  "feature_set": "all",
+  "label_mode": "h_max",
+  "thresholds": [
+    10.0,
+    30.0,
+    60.0
+  ],
+  "class_names": [
+    "Thấp (<10m)",
+    "TB (10-30m)",
+    "Cao (30-60m)",
+    "Rất cao (>=60m)"
+  ],
+  "feature_order": [
+    "hist",
+    "hog",
+    "glcm",
+    "edge"
+  ],
+  "env": {
+    "python": "3.13.16",
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "best_params": "{\"clf__learning_rate\": 0.05, \"clf__max_depth\": 5, \"clf__n_estimators\": 100}",
+  "cv_macro_f1": 0.3342,
+  "val_macro_f1": 0.2993,
+  "reference": {
+    "model": "TV3-logistic(sharpen/hist_glcm_edge)",
+    "preprocessing": "sharpen",
+    "feature_set": "hist_glcm_edge",
+    "val_accuracy": 0.2771,
+    "val_precision_macro": 0.2769,
+    "val_recall_macro": 0.279,
+    "val_macro_f1": 0.27,
+    "val_weighted_f1": 0.279,
+    "val_roc_auc_ovr": 0.602
+  }
+}

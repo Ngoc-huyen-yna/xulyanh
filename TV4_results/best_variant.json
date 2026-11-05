@@ -1,0 +1,1 @@
+{"best_variant": "clahe", "rule": "macro_f1 trung bình 3 mô hình, CV nhóm 5 fold trên train"}

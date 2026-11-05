@@ -1,0 +1,5 @@
+﻿model,preprocessing,best_params,cv_macro_f1,cv_std,n_combos,fit_time_s,val_accuracy,val_precision_macro,val_recall_macro,val_macro_f1,val_weighted_f1,val_roc_auc_ovr
+XGBoost,clahe,"{""clf__learning_rate"": 0.05, ""clf__max_depth"": 5, ""clf__n_estimators"": 100}",0.3342,0.0122,8.0,738.0,0.3807,0.3023,0.3237,0.2993,0.3641,0.674
+DecisionTree,clahe,"{""clf__max_depth"": 20, ""clf__min_samples_leaf"": 10}",0.3454,0.0532,12.0,356.4,0.3286,0.2817,0.2917,0.2787,0.3256,0.5498
+RandomForest,clahe,"{""clf__max_depth"": 10, ""clf__max_features"": ""sqrt""}",0.3186,0.0303,6.0,487.0,0.4085,0.2858,0.3128,0.2736,0.3554,0.6837
+TV3-logistic(sharpen/hist_glcm_edge),sharpen,(tham số TV3),,,,,0.2771,0.2769,0.279,0.27,0.279,0.602

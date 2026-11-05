@@ -1,0 +1,4 @@
+﻿do_tuong_phan_anh,so_mau,accuracy,macro_f1,ty_le_lop_Thap
+tương phản thấp,524.0,0.3168,0.1915,0.473
+vừa,524.0,0.2328,0.1862,0.214
+tương phản cao,524.0,0.4198,0.287,0.281
